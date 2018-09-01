@@ -16,9 +16,42 @@
         "createdAt": "2016-11-06T09:42:15.376Z",
         "updatedAt": "2016-11-06T09:42:15.376Z",
         "id": 2
+      },
+      {
+        "firstName": "Tim",
+        "email": "timlee201@gmail.com",
+        "password": "$2b$10$n/x/x5IZ4OLreCJI4TVCl.pNrpHQju5Lf.eAm8No6TlSFr8luRX6i",
+        "createdAt": "2018-09-01T14:44:27.214Z",
+        "updatedAt": "2018-09-01T14:44:27.214Z",
+        "id": 3
+      },
+      {
+        "firstName": "AnotherUser",
+        "email": "an@email.com",
+        "password": "$2b$10$4odP3oPscvB8wKoKHKxG6./CezxFreK.hWodvQt8s3Jyjnv/qXJF.",
+        "createdAt": "2018-09-01T15:37:37.011Z",
+        "updatedAt": "2018-09-01T15:37:37.011Z",
+        "id": 4
       }
     ],
-    "tokens": [],
+    "tokens": [
+      {
+        "user": 4,
+        "type": "access",
+        "value": "hlzI6l72HmjrRBnSGWHq0EHWHtVwpUl0",
+        "expiresAt": "2018-09-01T16:37:37.192Z",
+        "createdAt": "2018-09-01T15:37:37.198Z",
+        "id": 12
+      },
+      {
+        "user": 4,
+        "type": "refresh",
+        "value": "DeJv1oPZqW39P2NMfd784dT1zLxztlOH",
+        "expiresAt": "2018-11-30T15:37:37.200Z",
+        "createdAt": "2018-09-01T15:37:37.206Z",
+        "id": 13
+      }
+    ],
     "clients": [
       {
         "id": "8puWuJWZYls1Ylawxm6CMiYREhsGGSyw",
@@ -95,9 +128,11 @@
   },
   "counters": {
     "users": {
-      "id": 2
+      "id": 4
     },
-    "tokens": {},
+    "tokens": {
+      "id": 13
+    },
     "clients": {}
   }
 }
