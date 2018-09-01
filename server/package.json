@@ -17,7 +17,7 @@
     "sails": "~0.12.9",
     "sails-disk": "~0.10.9",
     "sails-hook-validation": "^0.4.6",
-    "sails-mongo": "1.0.1"
+    "sails-mongo": "0.12.2"
   },
   "scripts": {
     "start": "babel-node app.js"
