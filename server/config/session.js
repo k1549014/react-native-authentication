@@ -73,7 +73,7 @@ module.exports.session = {
   * Use the latest version with Node >= 4.0                                  *
   *                                                                          *
   ***************************************************************************/
-
+   
   // adapter: 'mongo',
   // url: 'mongodb://user:password@localhost:27017/dbname', // user, password and port optional
 
